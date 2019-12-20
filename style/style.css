@@ -1,0 +1,159 @@
+/* Font family of website */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Fixed position of navigation bar */
+nav{
+    background-color:  #5d9eff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Change the color of the title and profile name */
+nav h1.title {
+    margin-left: 20px;
+    float: left;
+    color: #fff;
+}
+
+nav h1.profile {
+    margin-right: 20px;
+    float: right;
+    color: #fff;
+}
+
+nav h1.profile a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav h1.profile a:hover {
+    color: #d4d4d4;
+}
+
+/* Fixed position of side bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:  #0066ff;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    top: 67px;
+    overflow: auto;
+}
+
+/* Moving the list item slightly downwards */
+ul li {
+    padding: 8px 0 0 10px;
+}
+
+ul li a {
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover {
+    color: #c4c4c4;
+}
+
+/* Move the section to align properly with the navigation bars */
+section {
+    margin-left: 15%;
+    padding: 80px 10px;
+}
+
+/* Link section */
+section a {
+    text-decoration: none;
+    color: #3535ff;
+}
+
+/* Link hovering section */
+section a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Table decoration */
+table, th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Increasing the size of legend */
+legend {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Giving more space between each fieldset */
+fieldset {
+    margin-top: 10px;
+}
+
+/* Adjust margin of file part */
+.file {
+    margin-right: 10px;
+}
+
+/* Showing the colour that only manager can edit this */
+.manager {
+    color: red;
+}
+
+.mansec {
+    border-left-style: dashed;
+    border-left-width: 1px;
+    padding-left: 10px;
+}
+
+/* Changing the look of buttons */
+.button {
+    font-size: medium;
+    border: none;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #598eff;
+}
+
+/* Changing the looks of textarea */
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sectioning the divisions */
+div {
+    float: left;
+}
+
+/* Change display of hidden forms */
+.hidden-form {
+    display: inline;
+}
+
+
